@@ -1,0 +1,59 @@
+{
+    "window.zoomLevel": 2,
+    "editor.fontFamily": "Operator Mono Lig Medium",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.5,
+    "workbench.editor.tabSizing": "shrink",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": true,
+    "editor.autoIndent": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "gitlens.blame.line.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        80,
+        100,
+        120
+    ],
+    "editor.minimap.showSlider": "always",
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.next": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.snippetSuggestions": "top",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Hybrid Operator",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.panel.location": "bottom",
+    "material-icon-theme.showUpdateMessage": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "git.autofetch": true
+}
