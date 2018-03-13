@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "editor.fontFamily": "Operator Mono Lig Medium",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
@@ -50,9 +50,16 @@
   "workbench.colorTheme": "Hybrid Operator",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "git.enableSmartCommit": true,
+  "git.autofetch": true,
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showUpdateMessage": false,
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
-  "git.autofetch": true
+  // Terminal
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.shellArgs.linux": [
+    "-l"
+  ],
 }
