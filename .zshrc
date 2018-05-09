@@ -7,7 +7,8 @@ POWERLEVEL9K_DISABLE_RPROMPT=true
 
 plugins=(
   git,
-  docker
+  docker,
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
