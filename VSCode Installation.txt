@@ -1,0 +1,99 @@
+*Pre-reqs*
+
+- Install Nodejs (v10+)
+- Globally install eslint `npm i -g eslint`
+
+*Install VSCode*
+
+*Install Operator Mono font*
+https://github.com/airburst/dotfiles/blob/master/omf.zip -> click 'View raw' to download zip.  Install on Mac as usual.
+
+*Install terminal font 'Inconsolata for Powerline'*
+(Assuming you use a powerline zsh font)
+https://github.com/powerline/fonts/blob/master/Inconsolata/Inconsolata%20for%20Powerline.otf
+
+*Install VSCode Extensions*
+Use the square icon in sidebar and start typing the names below to list and install each of them.
+
+- Auto rename tag
+- Bracket pair colorizer
+- Debugger for Chrome
+- Docker
+- EsLint
+- Hybrid Operator theme
+- Material theme icons
+- jsx and any other syntax plugins that you want..
+
+*VScode settings file*
+
+Click the settings icon bottom right > Settings.  Paste this into the right pane and save:
+
+```
+{
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": true,
+  "editor.autoIndent": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
+  "editor.minimap.showSlider": "always",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Hybrid Operator",
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 14,
+  // "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.shellArgs.linux": [
+    "-1"
+  ],
+}
+```
+
+*Linting*
+
+Eslint may (or may not) complain when you open a new file.  If you are working on js files and the project has a `.eslintrc` file, then highlighting and autoformat-on-save should work.
